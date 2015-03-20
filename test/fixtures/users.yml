@@ -1,0 +1,4 @@
+patrick:
+  name: Patrick Ofilada
+  email: pcofilada@gmail.com
+  password_digest: <%= User.digest('password') %>
